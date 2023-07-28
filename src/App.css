@@ -1,38 +1,66 @@
-.App {
+.container-lg{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  background-color: rgb(223, 223, 255);
+  width:100%;
+  font-size: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .btn-outline-success {
+    --bs-btn-bg:rgb(86, 86, 156);
+    --bs-btn-color:white;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg:rgb(153, 153, 196);
+    --bs-btn-hover-border-color:white;
+    --bs-btn-active-color: rgb(153, 153, 196);
+    --bs-btn-active-bg:black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: black;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: black;
+    --bs-gradient: none;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .dropdown-item {
+  background-color: rgb(207, 207, 255);
   }
-}
+  .dropdown-item:hover{
+    background-color: rgb(80, 80, 127);
+    color:white;
+  } 
+  .hr {
+  border:0rem 2 solid black;
+    opacity: 1;
+  
+  }
+  
+  .dropdown-divider {
+    height: 0;
+    margin: inherit;
+    overflow: hidden;
+    border-top: 1px solid black;
+    opacity: 0.4;
+  }
+  h1{
+    text-align: center;
+    font-size: 70px;
+    margin:auto;
+    margin-top:20vh;
+  }
+  .form-check-input{
+    background-color:rgb(165, 165, 230);
+    border-color: #020202;
+  }
+  .form-check-input:checked {
+    background-color:rgb(86, 86, 156);
+    border-color: #ffffff;
+  }
+  .navbar, .navbar-expand-lg{
+    padding:0px;
+    opacity: 1;
+  }
+  #aboutcontainer{
+    max-width: 40%;
+  }
+  
