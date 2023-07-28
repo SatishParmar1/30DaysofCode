@@ -1,5 +1,6 @@
 import React from 'react'
 
+<<<<<<< HEAD
 export default function About(props) {
   return (
     <>
@@ -7,10 +8,20 @@ export default function About(props) {
     <form>
   <div className={`form-group`}>
     <label htmlFor="exampleInputEmail1"  className={` text-${props.mode==='dark' ? 'light' : 'dark'} mt-3`} >Email address</label>
+=======
+export default function About() {
+  return (
+    <>
+    <div className="fixed-width container my-5" id ='aboutcontainer'>
+    <form>
+  <div className="form-group">
+    <label htmlFor="exampleInputEmail1">Email address</label>
+>>>>>>> 24b87d9 (day6)
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
 
   </div>
   <div className="form-group">
+<<<<<<< HEAD
     <label htmlFor="exampleInputPassword1"  className={` text-${props.mode==='dark' ? 'light' : 'dark'} mt-3 `}>Password</label>
     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
   </div>
@@ -21,6 +32,16 @@ export default function About(props) {
   <div className='form-group form-check' >
   <button className="btn btn-outline-success mb-2 ">Submit</button>
   </div>
+=======
+    <label htmlFor="exampleInputPassword1">Password</label>
+    <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
+  </div>
+  <div className="form-group form-check">
+    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+    <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" className="btn btn-outline-success my-3">Submit</button>
+>>>>>>> 24b87d9 (day6)
 </form>
 </div>
     </>
