@@ -65,10 +65,10 @@
     
   }
 #alert{
-  width:20%;
-  min-width: 10%;
+  
+  width:100%;
   top: 90px; 
-  right: 15px;
+ 
   
 }  
 #but{
@@ -86,4 +86,12 @@
 #privue{
 height:auto;
 overflow: hidden;
+}
+#textformtop{
+  top: 30px;
+
+}
+.my-3 {
+  margin-top: 5rem!important;
+  margin-bottom: 1rem!important;
 }

@@ -38,14 +38,15 @@ export default function Textform(props) {
     const [text, setText] = useState("");
   return (
     <>
+   
       <div className="mb-3 my-4" style={{color: props.mode==='dark' ? 'white' : 'black'}}>
     <label  className="form-label h2 d-flex justify-content-center ">{props.hadding} </label>
     <textarea className="form-control" value={text} onChange={handleup} id="mybox" rows="6" style={{backgroundColor:props.mode==='dark' ? 'gray' : '	rgb(248,248,248)', cursor: props.mode === 'dark' ? 'pointer' : 'text' }}></textarea>
   <div className='d-flex justify-content-center'>
-  <button className="btn btn-outline-success ml-2 my-3" id="but" onClick={handleupper}> Convert to Upper Case</button>
-  <button className="btn btn-outline-success mx-2 my-3" id="but" onClick={handlelower} > Convert to lower case</button>
-  <button className="btn btn-outline-success mx-2 my-3" id="but" onClick={handleclear} > Clear all</button>
-  <button className="btn btn-outline-success ml-2 my-3" id="but" onClick={handlecopy} > Copy Text</button>
+  <button className="btn btn-outline-success ml-2 my-4" id="but" onClick={handleupper}> Convert to Upper Case</button>
+  <button className="btn btn-outline-success mx-2 my-4" id="but" onClick={handlelower} > Convert to lower case</button>
+  <button className="btn btn-outline-success mx-2 my-4" id="but" onClick={handleclear} > Clear all</button>
+  <button className="btn btn-outline-success ml-2 my-4" id="but" onClick={handlecopy} > Copy Text</button>
   </div>
   </div>
 
@@ -62,6 +63,7 @@ export default function Textform(props) {
      <h2 className='d-flex justify-content-center'> Preview </h2>
      <div className='d-flex justify-content-center border border-seconday rounded' id="privue" style={{backgroundColor:props.mode==='dark' ? 'gray' : 'rgb(245,245,245)', cursor: props.mode === 'dark' ? 'pointer' : 'text',color: props.mode==='dark' ? 'dark' : 'black' }}> {text.length>0?text:"Enter Somthing in Text area to Print"}</div>
      </div>
+   
   </>
   )
 }
