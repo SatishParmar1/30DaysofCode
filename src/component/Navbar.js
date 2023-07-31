@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // import { Link } from 'react-router-dom'
 export default function Navbar(props) {
   return (
@@ -14,24 +15,32 @@ export default function Navbar(props) {
 =======
 import { Link } from 'react-router-dom'
 >>>>>>> c48ce1a (day7)
+=======
+// import { Link } from 'react-router-dom'
+>>>>>>> 6d55a8f (day7.1)
 export default function Navbar(props) {
   return (
     <>
-    <div className="container-lg" style={{backgroundColor:props.mode==='dark' ? 'rgb(39, 38, 71)' : 'rgb(223, 223, 255)', color: props.mode==='dark' ? 'white' : 'black'}}>DAY Seven(7)</div>
+    <div className="container-lg" style={{backgroundColor:props.mode==='dark' ? 'rgb(39, 38, 71)' : 'rgb(223, 223, 255)', color: props.mode==='dark' ? 'white' : 'black'}}>DAY Eight(8)</div>
     <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm  mb-5 bg-white ">
     <div className={`container-fluid pt-0 pb-0 mt-0 navbar-${props.mode} bg-${props.mode}`}>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <a className="navbar-brand" href="/">30DAYSOFCODE</a>
 >>>>>>> 24b87d9 (day6)
 =======
       <Link className="navbar-brand" to="">30DAYSOFCODE</Link>
 >>>>>>> c48ce1a (day7)
+=======
+      <a className="navbar-brand" href="#">30DAYSOFCODE</a>
+>>>>>>> 6d55a8f (day7.1)
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >   
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <a className="nav-link active" aria-current="page" href="textform"> {props.Home} </a>
@@ -49,6 +58,13 @@ export default function Navbar(props) {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle active" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 >>>>>>> 24b87d9 (day6)
+=======
+            <a className="nav-link active" aria-current="page" href="textform"> {props.Home} </a>
+          </li>
+        
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+>>>>>>> 6d55a8f (day7.1)
               {props.foryou}
             </a>
             <ul className="dropdown-menu">
@@ -64,6 +80,7 @@ export default function Navbar(props) {
         <div className="nav-item" id ="loginitem">  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <a className={`nav-link active" text-${props.mode==='dark' ? 'light' : 'dark'}` }  href="/login" >Login</a>
 =======
         <a className="nav-link active" href="/">Login</a>
@@ -71,6 +88,9 @@ export default function Navbar(props) {
 =======
         <Link className={`nav-link active" text-${props.mode==='dark' ? 'light' : 'dark'}` }  to="/login" >Login</Link>
 >>>>>>> c48ce1a (day7)
+=======
+        <a className={`nav-link active" text-${props.mode==='dark' ? 'light' : 'dark'}` }  href="/login" >Login</a>
+>>>>>>> 6d55a8f (day7.1)
           </div>
         <div className={`form-check form-switch mx-5 text-${props.mode==='dark' ? 'light' : 'dark'} `}>
               <input className="form-check-input mx" onClick={props.switch} type="checkbox" role="switch"  id="flexSwitchCheckDefault"/>
