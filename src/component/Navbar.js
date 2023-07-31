@@ -1,19 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 export default function Navbar(props) {
   return (
     <>
-    <div className="container-lg" style={{backgroundColor:props.mode==='dark' ? 'rgb(39, 38, 71)' : 'rgb(223, 223, 255)', color: props.mode==='dark' ? 'white' : 'black'}}>DAY Five(5)</div>
+    <div className="container-lg" style={{backgroundColor:props.mode==='dark' ? 'rgb(39, 38, 71)' : 'rgb(223, 223, 255)', color: props.mode==='dark' ? 'white' : 'black'}}>DAY Seven(7)</div>
     <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm  mb-5 bg-white ">
     <div className={`container-fluid pt-0 pb-0 mt-0 navbar-${props.mode} bg-${props.mode}`}>
-      <a className="navbar-brand" href="/">30DAYSOFCODE</a>
+      <Link className="navbar-brand" to="">30DAYSOFCODE</Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >   
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/"> {props.Home} </a>
+            <Link className="nav-link active" aria-current="page" to="textform"> {props.Home} </Link>
           </li>
         
           <li className="nav-item dropdown">
@@ -31,7 +32,7 @@ export default function Navbar(props) {
          
         </ul>
         <div className="nav-item" id ="loginitem">  
-        <a className="nav-link active" href="/">Login</a>
+        <Link className={`nav-link active" text-${props.mode==='dark' ? 'light' : 'dark'}` }  to="/login" >Login</Link>
           </div>
         <div className={`form-check form-switch mx-5 text-${props.mode==='dark' ? 'light' : 'dark'} `}>
               <input className="form-check-input mx" onClick={props.switch} type="checkbox" role="switch"  id="flexSwitchCheckDefault"/>
