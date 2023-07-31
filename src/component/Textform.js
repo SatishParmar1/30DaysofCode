@@ -47,7 +47,6 @@ export default function Textform(props) {
     <textarea className="form-control" value={text} onChange={handleup} id="mybox" rows="6" style={{backgroundColor:props.mode==='dark' ? 'gray' : '	rgb(248,248,248)', cursor: props.mode === 'dark' ? 'pointer' : 'text' }}></textarea>
   <div className='d-flex justify-content-center'>
 <<<<<<< HEAD
-<<<<<<< HEAD
   <button className="btn btn-outline-success ml-2 my-4" id="but" onClick={handleupper}> Convert to Upper Case</button>
   <button className="btn btn-outline-success mx-2 my-4" id="but" onClick={handlelower} > Convert to lower case</button>
   <button className="btn btn-outline-success mx-2 my-4" id="but" onClick={handleclear} > Clear all</button>
@@ -58,12 +57,6 @@ export default function Textform(props) {
   <button className="btn btn-outline-success ml-5 my-3" id="4" onClick={handleclear} > Clear all</button>
   <button className="btn btn-outline-success mx-5 my-3" id="4" onClick={handlecopy} > Copy Text</button>
 >>>>>>> 24b87d9 (day6)
-=======
-  <button className="btn btn-outline-success ml-2 my-3" id="but" onClick={handleupper}> Convert to Upper Case</button>
-  <button className="btn btn-outline-success mx-2 my-3" id="but" onClick={handlelower} > Convert to lower case</button>
-  <button className="btn btn-outline-success mx-2 my-3" id="but" onClick={handleclear} > Clear all</button>
-  <button className="btn btn-outline-success ml-2 my-3" id="but" onClick={handlecopy} > Copy Text</button>
->>>>>>> 6d55a8f (day7.1)
   </div>
   </div>
 
@@ -71,14 +64,10 @@ export default function Textform(props) {
      <h2 className='my-4'> Your Text Summery </h2>
      </div>
 <<<<<<< HEAD
-<<<<<<< HEAD
      <div className="container d-flex justify-content-center" id="chareter"> 
 =======
      <div className="container d-flex justify-content-center"> 
 >>>>>>> 24b87d9 (day6)
-=======
-     <div className="container d-flex justify-content-center" id="chareter"> 
->>>>>>> 6d55a8f (day7.1)
      
      <p className=' ' style={{color: props.mode==='dark' ? 'white' : 'black'}}>  {text.length}  Character</p>
      <p className='mx-5' style={{color: props.mode==='dark' ? 'white' : 'black'}} > {text.split(" ").length }   Word Count </p>
@@ -87,15 +76,11 @@ export default function Textform(props) {
 <div className="container " style={{color: props.mode==='dark' ? 'white' : 'black'}}> 
      <h2 className='d-flex justify-content-center'> Preview </h2>
 <<<<<<< HEAD
-<<<<<<< HEAD
      <div className='d-flex justify-content-center border border-seconday rounded' id="privue" style={{backgroundColor:props.mode==='dark' ? 'gray' : 'rgb(245,245,245)', cursor: props.mode === 'dark' ? 'pointer' : 'text',color: props.mode==='dark' ? 'dark' : 'black' }}> {text.length>0?text:"Enter Somthing in Text area to Print"}</div>
      </div>
    
 =======
      <p className='d-flex justify-content-center border border-seconday rounded'style={{backgroundColor:props.mode==='dark' ? 'gray' : 'rgb(245,245,245)', cursor: props.mode === 'dark' ? 'pointer' : 'text',color: props.mode==='dark' ? 'dark' : 'black' }}> {text.length>0?text:"Enter Somthing in Text area to Print"}</p>
-=======
-     <div className='d-flex justify-content-center border border-seconday rounded' id="privue" style={{backgroundColor:props.mode==='dark' ? 'gray' : 'rgb(245,245,245)', cursor: props.mode === 'dark' ? 'pointer' : 'text',color: props.mode==='dark' ? 'dark' : 'black' }}> {text.length>0?text:"Enter Somthing in Text area to Print"}</div>
->>>>>>> 6d55a8f (day7.1)
      </div>
 >>>>>>> 24b87d9 (day6)
   </>
