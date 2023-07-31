@@ -4,13 +4,9 @@ import './App.css';
 import Navbar from './component/Navbar';
 import Textform from './component/Textform';
 import Alert from './component/Alert';
-<<<<<<< HEAD
 // import About from './component/about';
 
 // import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
-=======
-//import About from './component/About';
->>>>>>> 24b87d9 (day6)
 
 
 
@@ -50,7 +46,6 @@ function App() {
   }
 
   return (  
-<<<<<<< HEAD
    
    
  <>
@@ -93,17 +88,6 @@ function App() {
       </>   
    
    
-=======
-    <>
-   
-    <Navbar Home="Home"  foryou="Foryou" mode={mode}  switch={space} hello={state} />
-    <Alert alert={alert}/>
-   
-    <div className="container my-3">
-    </div>
-    <Textform showAlert={showAlert} hadding="Enter Your Text" mode={mode} />
-    </>
->>>>>>> 24b87d9 (day6)
   );
 }
 
