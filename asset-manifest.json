@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/30DaysofCode/static/css/main.317b9096.css",
+    "main.js": "/30DaysofCode/static/js/main.bda111f7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/30DaysofCode/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/30DaysofCode/index.html",
+    "main.317b9096.css.map": "/30DaysofCode/static/css/main.317b9096.css.map",
+    "main.bda111f7.js.map": "/30DaysofCode/static/js/main.bda111f7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/30DaysofCode/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317b9096.css",
+    "static/js/main.bda111f7.js"
+  ]
+}
