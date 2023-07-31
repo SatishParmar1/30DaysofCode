@@ -5,12 +5,18 @@ import Navbar from './component/Navbar';
 import Textform from './component/Textform';
 import Alert from './component/Alert';
 <<<<<<< HEAD
+<<<<<<< HEAD
 // import About from './component/about';
 
 // import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 =======
 //import About from './component/About';
 >>>>>>> 24b87d9 (day6)
+=======
+import About from './component/about';
+
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
+>>>>>>> c48ce1a (day7)
 
 
 
@@ -50,6 +56,7 @@ function App() {
   }
 
   return (  
+<<<<<<< HEAD
 <<<<<<< HEAD
    
    
@@ -95,15 +102,52 @@ function App() {
    
 =======
     <>
+=======
+>>>>>>> c48ce1a (day7)
    
-    <Navbar Home="Home"  foryou="Foryou" mode={mode}  switch={space} hello={state} />
+   
+ 
+   
+   
+    <Router>
+         <Navbar Home="Home"  foryou="Foryou" mode={mode}  switch={space} hello={state} />
     <Alert alert={alert}/>
+    
+      
+      <Routes>
+      <Route path="/" 
+      element={
+        <div className="container my-3">
+      <Textform showAlert={showAlert} hadding="Enter Your Text" mode={mode} />
+      </div> }/>
+      </Routes>
+      
+    <Routes>
+      <Route path="/login" 
+      element={<About  mode={mode} />}/>
+      </Routes>
+
+      <Routes>
+      <Route path="/textform" 
+      element={
+      <div className="container my-3">
+       <Textform showAlert={showAlert} hadding="Enter Your Text" mode={mode} />
+       </div>}/>
+       
+      </Routes>
+      </Router>
+
+      
    
+   
+<<<<<<< HEAD
     <div className="container my-3">
     </div>
     <Textform showAlert={showAlert} hadding="Enter Your Text" mode={mode} />
     </>
 >>>>>>> 24b87d9 (day6)
+=======
+>>>>>>> c48ce1a (day7)
   );
 }
 
